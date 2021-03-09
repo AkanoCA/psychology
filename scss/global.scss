@@ -1,0 +1,48 @@
+$displayWidth: 1920;
+$displayHeight: 1080;
+
+
+@function -rem($px) {
+    @return ($px / 16) + 0rem;
+}
+
+@function -px($rem) {
+    @return ($rem * 16) + 0px;
+}
+
+@function -vw($px) {
+    @return ($px / $displayWidth) * 100vw;
+}
+
+@function -vh($px) {
+    @return ($px / 800) * 100vh;
+}
+
+@mixin standartBlock {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: auto;
+}
+
+/* Variables */
+
+// Colors
+$colorMain: #004445;
+$colorSub: #2C7873;
+$colorAccent1: #69B98F;
+$colorAccent2: #F5813B;
+
+$colorFont: #fff;
+$colorFontAlt: #000;
+
+// Fonts
+$fontText: 'Roboto', sans-serif;
+$fontTitle: 'Gotham', sans-serif;
+
+$fontSizeTitle: -rem(46);
+$fontSizeText: -rem(20);

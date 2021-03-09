@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../assets/fonts/Gotham-Light.eot');
+    src: local('../assets/fonts/Gotham Light'), local('Gotham-Light'),
+        url('../assets/fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Gotham-Light.woff2') format('woff2'),
+        url('../assets/fonts/Gotham-Light.woff') format('woff'),
+        url('../assets/fonts/Gotham-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../assets/fonts/Gotham-Medium.eot');
+    src: local('../assets/fonts/Gotham Medium'), local('Gotham-Medium'),
+        url('../assets/fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Gotham-Medium.woff2') format('woff2'),
+        url('../assets/fonts/Gotham-Medium.woff') format('woff'),
+        url('../assets/fonts/Gotham-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../assets/fonts/Gotham-Bold.eot');
+    src: local('../assets/fonts/Gotham Bold'), local('Gotham-Bold'),
+        url('../assets/fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Gotham-Bold.woff2') format('woff2'),
+        url('../assets/fonts/Gotham-Bold.woff') format('woff'),
+        url('../assets/fonts/Gotham-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../assets/fonts/Gotham-Black.eot');
+    src: local('../assets/fonts/Gotham Black'), local('Gotham-Black'),
+        url('../assets/fonts/Gotham-Black.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/Gotham-Black.woff2') format('woff2'),
+        url('../assets/fonts/Gotham-Black.woff') format('woff'),
+        url('../assets/fonts/Gotham-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+
+
+
